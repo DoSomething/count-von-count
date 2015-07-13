@@ -53,8 +53,8 @@ getDigitsFromString = function(string) {
     numericalElementArray = text.toString().toLowerCase()
                                 // replace everything in the string that's not alphanumeric with whitespace
                                 .replace(/\W+/g, " ")
-                                // replace everything in the string that's not a spelled number or a numerals with whitespace, then trims leading and following whitespace
-                                .replace(/\b(?!(?:hundred|zero|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety|thousand|million|billion|trillion|quadrillion|quintillion|sextillion|septillion|octillion|nonillion|decillion|\d+)\b)[a-zA-Z0-9]+\b/g, " ").trim()
+                                // replace everything in the string that's not a spelled number or numerals with whitespace, then trims leading and following whitespace
+                                .replace(/\b(?!(?:hundred|zero|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety|thousand|million|billion|trillion|quadrillion|quintillion|sextillion|septillion|octillion|nonillion|decillion))[a-zA-Z]+/g, " ").trim()
                                 // Creates an array by splitting on whitespace
                                 .split(/[\s-]+/);
     total = 0;
