@@ -43,6 +43,14 @@ describe('it handles cases with spelled digits', function() {
       assert(CountVonCount(string) === 1);
     })
   })
+
+  describe('CountVonCount("3 hundred thousand five hundred and thirty-6")', function() {
+    var string = "3 hundred 26 thousand five hundred and thirty-6";
+    it('should return 326536', function() {
+      CountVonCount(string);
+      assert(CountVonCount(string) === 326536);
+    })
+  })
 })
 
 describe('it handles cases up to 999 decillion', function() {
