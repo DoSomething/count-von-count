@@ -64,7 +64,6 @@ getDigitsFromString = function(string) {
     function isNumeric(n) {
       return !isNaN(parseFloat(n)) && isFinite(n);
     }
-
     for (var i=0; i < numericalElementArray.length; i++) {
       var element = numericalElementArray[i]
       // If the element is a/are already digit(s)

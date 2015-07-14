@@ -26,7 +26,7 @@
     "url": "https://github.com/DoSomething/count-von-count/issues"
   },
   "homepage": "https://github.com/DoSomething/count-von-count",
-  "dependencies": {
+  "devDependencies": {
     "mocha": "^2.2.5"
   }
 }

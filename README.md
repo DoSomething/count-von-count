@@ -10,12 +10,13 @@ A simple tool to filter a string for spelled numbers (one hundred), digits (1 hu
   `npm install count-von-count --save`
 
 ## Usage
-
+```javascript
   var countVonCount = require('count-von-count');
 
   var stringToBeFiltered = "3 hundred 26 thousand five hundred and thirty-6";
 
   countVonCount(stringToBeFiltered); //returns 326536
+```
 
 ## Tests
 
