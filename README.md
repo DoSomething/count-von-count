@@ -3,7 +3,7 @@ Count Von Count
 
 ![](https://upload.wikimedia.org/wikipedia/en/2/29/Count_von_Count_kneeling.png)
 
-A simple tool to filter a string for spelled numbers (one hundred), digits (1 hundred), or mixed numbers (1 hundred) and convert it all to digits (100).
+A simple tool to filter a string for spelled numbers (one hundred), digits (1 hundred), or mixed numbers (1 hundred) and convert it all to digits (100). Named by [Diego Lorenzo](http://diegolorenzo.com/), that crafty wordsmith. 
 
 ## Installation
 
@@ -30,4 +30,3 @@ A simple tool to filter a string for spelled numbers (one hundred), digits (1 hu
 ## Release History
 
   * 0.1.0 initial release. 
-
